@@ -13,10 +13,6 @@ Output: much.very.program.this.like.i
 Example2:  
 Input: S = pqr.mno  
 Output: mno.pqr  
-
-
-## Level 1
-
 ### Q2. Reverse Words in a String (LeetCode 151)  
 
 Given an input string s, reverse the order of the words.  
@@ -30,12 +26,12 @@ Input: s = "the sky is blue"
 Output: "blue is sky the"  
 
 Example2:  
-Input: s = "  hello world  "  
+Input: s = `"  hello world   "`  
 Output: "world hello"  
 Explanation: Your reversed string should not contain leading or trailing spaces.  
 
 Example3:  
-Input: s = "a good   example"  
+Input: s = `"a good    example"`  
 Output: "example good a"  
 Explanation: You need to reduce multiple spaces between two words to a single space in the reversed string.  
 
