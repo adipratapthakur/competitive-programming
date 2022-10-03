@@ -34,6 +34,19 @@ Example3:
 Input: s = `"a good    example"`  
 Output: "example good a"  
 Explanation: You need to reduce multiple spaces between two words to a single space in the reversed string.  
+### Q3. Longest Common Prefix in an Array  
+
+Write a function to find the longest common prefix string amongst an array of strings.  
+If there is no common prefix, return an empty string "".  
+
+Example1:  
+Input: strs = ["flower","flow","flight"]  
+Output: "fl"  
+
+Example2:  
+Input: strs = ["dog","racecar","car"]  
+Output: ""  
+Explanation: There is no common prefix among the input strings.  
 
 
  
