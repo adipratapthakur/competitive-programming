@@ -1,0 +1,29 @@
+class Solution {
+public:
+    string longestCommonPrefix(vector<string>& strs) {
+        
+        string prefix = strs[0];
+        int size = strs.size();
+        
+        for (int i=1; i<size; i++) {
+            prefix = commonPrefixUtil(prefix, strs[i]);
+        }
+        
+        return prefix;
+        
+    }
+    
+    string commonPrefixUtil(string& str1, string& str2) {
+        string result = "";
+        int len = min(str1.size(), str2.size());
+        
+        for (int i=0; i<len; i++) {
+            if (str1[i] != str2[i]) {
+                break;
+            }
+            result += str1[i];
+        }
+        
+        return result;
+    }
+};
